@@ -16,7 +16,7 @@ public class ResonanceCannon implements ModInitializer {
 	public static final Item RESONANCE_CANNON = Registry.register(
 			Registry.ITEM,
 			new ResourceLocation(MODID, "resonance_cannon"),
-			new ResonanceCannonItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			new ResonanceCannonItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 
 	@Override
 	public void onInitialize(ModContainer mod) {
