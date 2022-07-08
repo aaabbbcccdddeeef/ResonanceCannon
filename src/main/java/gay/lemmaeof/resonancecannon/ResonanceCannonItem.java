@@ -36,6 +36,7 @@ public class ResonanceCannonItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack stack) {
+		//TODO: custom rendering for use animation and such, this looks *awful*
 		return UseAnim.BOW;
 	}
 
